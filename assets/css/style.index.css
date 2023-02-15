@@ -20,6 +20,8 @@ article {
 footer {
     text-align: center;
     background-color: #011826;
+    align-items: center;
+    padding: 10px;
 }
 
 h1 {
@@ -63,6 +65,8 @@ a {
     margin-top: 20px;
     color: #D9D9D9;
     font-size: 15px;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 #pfooter2 {
