@@ -1,75 +1,97 @@
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #D9D9D9;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 header {
     text-align: center;
-    background-color: #011826;
     margin: 0;
     padding: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.anav {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #111;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: #fff;
+}
+
+li {
+    margin-right: 20px;
+}
+
+.banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h2,
+.banner p {
+    color: #333;
+    text-align: center;
+}
+
+.content {
+    padding: 10px 0;
 }
 
 article {
-    margin: 10px;
-    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+article h2 {
+    margin-bottom: 10px;
+}
+
+article p {
+    margin-bottom: 20px;
+}
+
+article a {
+    color: #333;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 footer {
-    text-align: center;
-    background-color: #011826;
-    align-items: center;
+    background-color: #333;
+    color: #fff;
+    height: 50px;
     padding: 10px;
-}
-
-h1 {
     text-align: center;
-    font-size: 50px;
-}
-
-p {
-    text-align: justify;
-}
-
-a {
-    text-decoration: none;
-    color: #011826;
-}
-
-#aboutus {
-    border-left: 6px solid black;
-    padding-left: 20px;
-}
-
-#who {
-    text-align: justify;
-    border-left: 6px solid black;
-    padding-left: 20px;
-    padding-bottom: 10px;
-}
-
-#teamphoto {
-    border: 2px solid black;
-}
-
-#subtitle {
-    text-align: center;
-    font-size: 15px;
-}
-
-#pfooter1 {
-    margin-right: 20px;
-    margin-bottom: 0px;
-    margin-top: 20px;
-    color: #D9D9D9;
-    font-size: 15px;
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-#pfooter2 {
-    margin-right: 20px;
-    margin-bottom: 0px;
 }
