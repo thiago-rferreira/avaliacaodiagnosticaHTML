@@ -4,6 +4,10 @@ body {
     padding: 0;
 }
 
+iframe {
+    border: none;
+}
+
 .container {
     max-width: 960px;
     margin: 0 auto;
@@ -36,7 +40,7 @@ nav {
 
 a:hover {
     background-color: #111;
-  }
+}
 
 ul {
     list-style-type: none;
