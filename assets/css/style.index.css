@@ -5,8 +5,11 @@ body {
 }
 
 iframe {
-    border: none;
+  border: none;
+  margin: 0;
+  padding: 0;
 }
+
 
 .container {
     max-width: 960px;
