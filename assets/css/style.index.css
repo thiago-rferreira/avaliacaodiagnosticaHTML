@@ -11,7 +11,6 @@ iframe{
 }
 
 .container {
-    max-width: 960px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -78,6 +77,9 @@ li {
 
 article {
     margin-bottom: 50px;
+    border-left: 6px solid black;
+    border-radius: 5px;
+    padding-left: 20px;
 }
 
 article h2 {

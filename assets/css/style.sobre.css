@@ -68,6 +68,7 @@ a {
 #aboutus {
     border-left: 6px solid black;
     padding-left: 20px;
+    border-radius: 5px;
 }
 
 #who {
