@@ -14,6 +14,7 @@ body {
 h1 {
   text-align: center;
   padding: 10px;
+  font-size: 50px;
 }
 
 label {
@@ -27,6 +28,7 @@ form {
   width: 80%;
   max-width: 500px;
   margin: 0 auto;
+  padding-top: 20px;
 }
 
 input[type="text"],
