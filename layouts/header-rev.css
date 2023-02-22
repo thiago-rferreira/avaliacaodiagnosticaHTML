@@ -18,7 +18,19 @@ header {
   align-items: center;
 }
 
-.logo {
-  font-size: 2em;
-  font-weight: bold;
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
 }
