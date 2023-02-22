@@ -41,7 +41,7 @@ textarea {
   resize: none;
 }
 
-input[type="submit"] {
+button {
   padding: 10px;
   background-color: #008CBA;
   color: white;
@@ -50,8 +50,9 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-input[type="submit"]:hover {
+button:hover {
   background-color: #006D9C;
+
 }
 
 #iframefooter {
