@@ -1,3 +1,7 @@
+*{
+    text-align: justify;
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
