@@ -78,11 +78,16 @@ li {
 }
 
 
-article {
+.ArticleWithBorder {
     margin-bottom: 50px;
     border-left: 6px solid black;
-    border-radius: 5px;
-    padding-left: 20px;
+    border-radius: 7px;
+    margin: 20px;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: 9px 9px 26px 1px rgba(0,0,0,0.7); 
+    box-shadow: 9px 9px 26px 1px rgba(0,0,0,0.7);
+    padding: 15px;
 }
 
 article h2 {
@@ -105,5 +110,24 @@ footer {
     color: #fff;
     height: 50px;
     padding: 10px;
+    text-align: center;
+}
+
+.article1{
+    display: flex;
+    padding: 20px;
+}
+
+.p1{
+    padding: 10px;
+}
+
+.articleLadoaLado{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+.sectionImg{
     text-align: center;
 }
