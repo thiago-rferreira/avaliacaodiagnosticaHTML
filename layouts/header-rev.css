@@ -33,4 +33,15 @@ nav a {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+  padding: 10px;
+}
+
+nav a:hover {
+  color: #ffc107;
+  background-color: rgba(255, 255, 255, 0.36);
+  border-radius: 5px;
+}
+
+nav a:active {
+  color: #f44336;
 }
