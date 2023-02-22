@@ -78,13 +78,18 @@ a:hover {
     animation-name: spin;
     animation-duration: 2s;
     animation-iteration-count: initial;
-  }
-  
-  @keyframes spin {
+}
+
+.logo:hover {
+    background-color: #33333300;
+}
+
+@keyframes spin {
     from {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
+
     to {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  }
+}
