@@ -10,8 +10,8 @@ header {
     padding: 10px;
     background-color: #333;
     color: #fff;
-    height: 100%;
     position: fixed;
+    height: 100%;
     width: 100%;
     line-height: 40px;
 }
